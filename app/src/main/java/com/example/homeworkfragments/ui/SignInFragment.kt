@@ -82,11 +82,7 @@ class SignInFragment: Fragment(R.layout.fragment_signin) {
                         transaction?.replace(R.id.profileContainer, ProfileFragment())
                         transaction?.disallowAddToBackStack()
                         transaction?.commit()
-
-
-
-                        //(activity as MainActivity).startChronometer(20000)
-
+                        // (activity as MainActivity).startChronometer(20000)
                     } else {
                         // If sign in fails, display a message to the user.
                         Log.w("SignInFragment", "signInWithCredential:failure", task.exception)
