@@ -49,8 +49,8 @@ FrameLayout(context, attrs, defStyleAttr){
             }
 
             override fun onStopTrackingTouch(seekBar: SeekBar?) {
-                videoView.seekTo(seekBar?.progress?:0)
-                if(playButton.isVisible){
+                videoView.seekTo(seekBar?.progress ?: 0)
+                if (playButton.isVisible) {
                     videoView.pause()
                 } else {
                     videoView.start()
@@ -99,11 +99,11 @@ FrameLayout(context, attrs, defStyleAttr){
         }
     }
 
-    fun setTitle(title:String?){
+    fun setTitle(title: String?) {
         titleTextView.text = title
     }
 
-    fun playerClick(){
+    fun playerClick() {
         if (titleTextView.visibility == View.VISIBLE) {
             handlerView.postDelayed(hide, 0)
         } else {
@@ -119,7 +119,7 @@ FrameLayout(context, attrs, defStyleAttr){
         }
     }
 
-    private fun listenPlayerTrack(){
+    private fun listenPlayerTrack() {
         runnable = Runnable {
             seekBar.progress = videoView.currentPosition
             durationTextView.text = "${formatTime(videoView.currentPosition)}-${formatTime(videoView.duration)}"
@@ -128,15 +128,14 @@ FrameLayout(context, attrs, defStyleAttr){
         handlerView.postDelayed(runnable, 100)
     }
 
-    fun destroy(){
+    fun destroy() {
         handlerView.removeCallbacks(runnable)
         handlerView.removeCallbacks(hide)
     }
-
 }
 
-fun formatTime (duration:Int):String{
-    val minutes = duration / 60000;
-    val seconds = (duration-(minutes*60000)) / 1000
+fun formatTime(duration:Int): String{
+    val minutes = duration / 60000
+    val seconds = (duration - (minutes*60000)) / 1000
     return String.format("%02d:%02d", minutes, seconds)
 }
