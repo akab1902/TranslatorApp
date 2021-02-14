@@ -104,16 +104,16 @@ FrameLayout(context, attrs, defStyleAttr){
     }
 
     fun playerClick(){
-        if(titleTextView.visibility== View.VISIBLE){
+        if (titleTextView.visibility == View.VISIBLE) {
             handlerView.postDelayed(hide, 0)
         } else {
             titleTextView.visibility = View.VISIBLE
             durationTextView.visibility = View.VISIBLE
             seekBar.visibility = View.VISIBLE
-            if (playing){
-                pauseButton.visibility=View.VISIBLE
-            }else{
-                playButton.visibility=View.VISIBLE
+            if (playing) {
+                pauseButton.visibility = View.VISIBLE
+            } else {
+                playButton.visibility = View.VISIBLE
             }
             handlerView.postDelayed(hide, 3000)
         }
