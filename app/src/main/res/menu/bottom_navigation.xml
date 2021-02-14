@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/google_translate_nav"
+        android:icon="@drawable/ic_google_translate"
+        android:iconTint="?attr/colorDefaultItem"
+        android:title="Aýdarý"
+        />
+    <item
+        android:id="@+id/like_nav"
+        android:icon="@drawable/ic_like"
+        android:title="Unaǵandar tіzіmі"
+        android:iconTint="?attr/colorDefaultItem"
+        />
+    <item
+        android:id="@+id/translate_nav"
+        android:icon="@drawable/ic_translate"
+        android:title="Кириллица - Latynsha"
+        android:iconTint="?attr/colorDefaultItem"
+        />
+    <item
+        android:id="@+id/search_nav"
+        android:icon="@drawable/ic_search"
+        android:title="Qyzyqty kontent"
+        android:iconTint="?attr/colorDefaultItem"
+        />
+    <item
+        android:id="@+id/account_nav"
+        android:icon="@drawable/ic_account"
+        android:title="Jeke paraq"
+        android:iconTint="?attr/colorDefaultItem"
+        />
+
+
+
+</menu>

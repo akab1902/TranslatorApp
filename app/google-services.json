@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "530557850598",
+    "firebase_url": "https://translatorauth-6960a-default-rtdb.firebaseio.com",
+    "project_id": "translatorauth-6960a",
+    "storage_bucket": "translatorauth-6960a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530557850598:android:c3f436aece4a78e3c13c27",
+        "android_client_info": {
+          "package_name": "com.example.homeworkfragments"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530557850598-2u8pir9baqlrsh3a1i3kg9v9v934ndl7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homeworkfragments",
+            "certificate_hash": "e6a337de445944dd48a9531fbdf6649715c22bd8"
+          }
+        },
+        {
+          "client_id": "530557850598-sjrfh91enps3ir1ppuffb55oq9q3koot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvw-nR_HhMkQrfoUVJTxazFSjX8Bc8q68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530557850598-sjrfh91enps3ir1ppuffb55oq9q3koot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

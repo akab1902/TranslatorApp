@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainContainer"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorMenu"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageButton
+                android:id="@+id/changeThemeButton"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@null"
+                android:layout_marginRight="10dp"
+                android:src="?attr/themeImg"
+                />
+
+            <TextView
+                android:id="@+id/toolBarTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Кириллица - Latynsha"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:textColor="?attr/colorText"
+                />
+
+            <ImageButton
+                android:id="@+id/popUpMenuButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:src="@drawable/ic_more"
+                android:tint="?attr/colorActiveItem" />
+
+<!--            <Chronometer-->
+<!--                android:id="@+id/chronometer"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:layout_marginRight="30dp"/>-->
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:layout_below="@id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:elevation="5dp"
+        android:background="?attr/colorActiveItem"
+        />
+
+    <FrameLayout
+        android:id="@+id/containerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavigationView"
+        android:layout_below="@id/toolbar3"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorMenu"
+        app:itemIconTint="@color/bottom_nav_color"
+        android:layout_alignParentBottom="true"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_navigation"
+        />
+    <View
+        android:layout_above="@id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/colorActiveItem"
+        android:elevation="5dp"
+        />
+
+</RelativeLayout>

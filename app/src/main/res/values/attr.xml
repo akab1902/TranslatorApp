@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr  name="colorMenu" format="color|reference"></attr>
+    <attr  name="colorActiveItem" format="color|reference"></attr>
+    <attr  name="colorDefaultItem" format="color|reference"></attr>
+    <attr  name="colorSendBox" format="color|reference"></attr>
+    <attr  name="colorReceiveBox" format="color|reference"></attr>
+    <attr  name="colorText" format="color|reference"></attr>
+    <attr  name="backgroundImg" format="string"></attr>
+    <attr  name="searchBoxBackground" format="string"></attr>
+    <attr  name="likedBoxBackground" format="string"></attr>
+    <attr  name="themeImg" format="string"></attr>
+    <attr  name="scrollToBottomImg" format="string"></attr>
+    <attr  name="colorLighterBg" format="color|reference"></attr>
+    <declare-styleable name="VideoPlayerItem">
+        <attr name="isSeekBarVisible" format="boolean"/>
+    </declare-styleable>
+</resources>

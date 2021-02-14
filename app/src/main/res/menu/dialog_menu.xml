@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/copyButton"
+        android:icon="@drawable/ic_copy"
+        android:iconTint="?attr/colorText"
+        android:title="Kóshіrý"/>
+    <item android:id="@+id/shareButton"
+        android:icon="@drawable/ic_share"
+        android:iconTint="?attr/colorText"
+        android:title="Bólіsý"/>
+    <item android:id="@+id/deleteButton"
+        android:icon="@drawable/ic_delete"
+        android:iconTint="?attr/colorText"
+        android:title="Óshіrý"/>
+    <item android:id="@+id/likeButton"
+        android:icon="@drawable/ic_like"
+        android:iconTint="#1789DB"
+        android:title="Unaǵandar tіzіmіne qosý"
+        />
+</menu>

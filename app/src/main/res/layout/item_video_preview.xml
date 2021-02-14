@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/videoPlayerImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/videoplayer_box"
+        android:scaleType="center"
+        />
+
+    <FrameLayout
+        android:id="@+id/previewTitleBox"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:background="?attr/colorLighterBg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoPlayerImageView" >
+
+        <TextView
+            android:id="@+id/previewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="16sp"
+            android:textColor="?attr/colorText"/>
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/previewPlayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:elevation="11dp"
+        android:src="@drawable/ic_play"
+        app:layout_constraintEnd_toEndOf="@+id/videoPlayerImageView"
+        app:layout_constraintStart_toStartOf="@+id/videoPlayerImageView"
+        app:layout_constraintTop_toTopOf="@+id/videoPlayerImageView"
+        app:layout_constraintBottom_toBottomOf="@+id/videoPlayerImageView"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

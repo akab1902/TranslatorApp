@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/emailPopupItem"
+        android:icon="@drawable/ic_email"
+        android:iconTint="?attr/colorDefaultItem"
+        android:title="Avtorǵa hat jazý"
+        />
+    <item
+        android:id="@+id/sharePopupItem"
+        android:icon="@drawable/ic_share"
+        android:iconTint="?attr/colorDefaultItem"
+        android:title="Qosymshamen bólіsý"
+        />
+    <item
+        android:id="@+id/qosymshaPopupItem"
+        android:icon="@drawable/ic_send_2"
+        android:iconTint="?attr/colorDefaultItem"
+        android:title="Maǵan qosymsha kerek"
+        />
+</menu>

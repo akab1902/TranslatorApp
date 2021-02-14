@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/likedBoxBackground"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginHorizontal="10dp">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_move_liked"
+        android:tint="?attr/colorActiveItem"
+        android:background="@null"
+        android:layout_marginEnd="10dp"/>
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/likedOrgTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorText"
+            android:textSize="15sp"
+            android:textFontWeight="1000"
+            android:text="Liked Original Text"
+            android:layout_marginBottom="10dp"
+            />
+        <View
+            android:id="@+id/horizontalLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eaedf2"
+            />
+        <TextView
+            android:id="@+id/likedTransTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorText"
+            android:textSize="15sp"
+            android:text="Liked Translated Text"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/deleteLikedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/ic_delete_liked"
+        android:layout_marginStart="10dp"
+        android:tint="?attr/colorActiveItem"
+        />
+
+
+</LinearLayout>
+

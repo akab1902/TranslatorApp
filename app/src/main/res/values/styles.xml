@@ -1,0 +1,52 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+<!--        Custom Items-->
+        <item name="colorMenu">#FFFFFF</item>
+        <item name="colorActiveItem">#1789DB</item>
+        <item name="colorDefaultItem">#949494</item>
+        <item name="colorText">#393737</item>
+        <item name="colorReceiveBox">#FFFFFF</item>
+        <item name="colorSendBox">#D5ECCF</item>
+        <item name="backgroundImg">@drawable/bg_light</item>
+        <item name="themeImg">@drawable/ic_moon</item>
+        <item name="scrollToBottomImg">@drawable/ic_go_bottom</item>
+        <item name="searchBoxBackground">@drawable/searchbox</item>
+        <item name="likedBoxBackground">@drawable/likedbox</item>
+        <item name="android:textColor">#393737</item>
+        <item name="android:itemBackground">#FFFFFF</item>
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+        <item name="colorLighterBg">#DDDDDD</item>
+        
+        <item name="fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="AppThemeDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#3D4859</item>
+        <item name="colorPrimary">#DB7517</item>
+        <item name="colorMenu">#323D4E</item>
+        <item name="colorActiveItem">#DB7517</item>
+        <item name="colorDefaultItem">#FFFFFF</item>
+        <item name="colorText">#FFFFFF</item>
+        <item name="colorReceiveBox"> #323D4E</item>
+        <item name="colorSendBox"> #074A46</item>
+        <item name="backgroundImg">@drawable/bg_dark</item>
+        <item name="themeImg">@drawable/ic_sun</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="scrollToBottomImg">@drawable/ic_go_bottom_dark</item>
+        <item name="searchBoxBackground">@drawable/searchbox_dark</item>
+        <item name="likedBoxBackground">@drawable/likedbox_dark</item>
+        <item name="android:itemBackground">#323D4E</item>
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+        <item name="colorLighterBg">#3D4859</item>
+
+        <item name="fontFamily">@font/montserrat_regular</item>
+    </style>
+
+
+
+</resources>
